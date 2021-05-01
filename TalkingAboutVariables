@@ -1,0 +1,45 @@
+class TalkingAboutVariables{
+	public static void main(String[] args) {
+		// Declaration
+		// Type identifier;
+		// 	short var;
+
+		// // Initiliziation
+		// 	// identifier = value;
+		// 	var = 8;
+
+		// 	// Declare and initialize on the same line
+		// 	int v = 678, b = 0;
+
+		// 	double f = 905;//Error here! - Precision numbers in java
+		// 					// are of the type double by default
+
+		// 	System.out.println("Value is :" + f); 
+
+		float d = 678.98;
+
+		int var = (int) d; //Works after Explicit Type Casting
+
+		System.out.println("Value of var is : " + var);
+
+
+		float r;
+
+
+		float v;
+
+
+
+
+	}
+}
+
+
+// boolean - 1
+// byte - 1
+// short - 2
+// char - 2
+// int - 4
+// long - 8
+// float - 4
+// double - 8
